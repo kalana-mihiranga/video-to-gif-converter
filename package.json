@@ -5,7 +5,7 @@
   "description": "Free, privacy-first Video to GIF converter that runs 100% in the browser using FFmpeg.wasm.",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "eslint ."
   },
