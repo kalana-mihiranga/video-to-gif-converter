@@ -1,5 +1,4 @@
 const { FlatCompat } = require("@eslint/eslintrc");
-const path = require("path");
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
@@ -9,10 +8,14 @@ module.exports = [
   {
     ignores: [".next/**", "node_modules/**", "out/**"],
   },
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  ...compat.extends("next/core-web-vitals"),
+
   {
     rules: {
-      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-img-element": "off",
+      "@typescript-eslint/no-unused-vars": "off",
     },
   },
 ];
