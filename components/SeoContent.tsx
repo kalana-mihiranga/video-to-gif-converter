@@ -22,7 +22,6 @@ export default function SeoContent() {
         </p>
         <p className="mt-4 leading-relaxed text-ink-muted">
           This converter takes a different approach. It runs a full build of
-          FFmpeg, compiled to WebAssembly, directly inside your browser tab.
           When you choose a file, nothing is uploaded anywhere. Instead, the
           FFmpeg engine loads locally (a small one-time download) and reads
           your video frame by frame using your own device’s CPU. The GIF is
@@ -66,7 +65,6 @@ export default function SeoContent() {
           GIFs remain one of the most universally supported ways to share a
           short moving image. Unlike video files, GIFs autoplay everywhere —
           in chat apps, forums, emails, and social feeds — without a player,
-          a click, or a "tap to play" prompt. That makes them ideal for
           reaction clips, product demos, bug reports, tutorials, and memes.
           The tradeoff is file size and color depth, which is exactly why this
           converter uses a two-pass palette pipeline instead of a naive
