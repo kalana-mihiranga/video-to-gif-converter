@@ -89,7 +89,7 @@ export default function SeoContent() {
           </code>
           , applying high-quality dithering so gradients and skin tones look
           smooth instead of blocky. Frames are sampled at 12 frames per
-          second and scaled to 480 pixels wide by default — a balance that {"\""}Ezgif-style{"\""} converters have popularized because it keeps motion looking fluid while keeping file size reasonable for sharing.
+          second and scaled to 480 pixels wide by default — a balance that converters have popularized because it keeps motion looking fluid while keeping file size reasonable for sharing.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl">
